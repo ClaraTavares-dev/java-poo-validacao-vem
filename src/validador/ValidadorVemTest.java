@@ -5,7 +5,7 @@ public class ValidadorVemTest {
 
         validador.ValidadorVem[] cartoes = new validador.ValidadorVem[4];
 
-        double tarifaPadrao = 4.10; //preço fixo.
+        double tarifaPadrao = 4.10; //preço fixo
 
         cartoes[0] = new validador.ValidadorVem(1709,  20.00, tarifaPadrao);
         cartoes[1] = new validador.ValidadorVem(19900, 3.50, tarifaPadrao);
