@@ -8,7 +8,7 @@ public class ValidadorVem {
         public ValidadorVem(int numeroCartao, double saldo, double tarifa){
             this.numeroCartao = numeroCartao;
             this.saldo = saldo;
-            this.tarifa = tarifa; //
+            this.tarifa = tarifa;
         }
         public void pagarPassagem() {
             if(saldo >= tarifa) {
